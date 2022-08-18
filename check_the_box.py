@@ -56,7 +56,7 @@ class Application(Frame):
 
     def do_the_job(self):
         """Main part of the program"""
-        #find the required HTML element
+        #finds the required HTML element
         def get_element(browser, seconds, link, kind):
             count = 0
             while count < seconds:
